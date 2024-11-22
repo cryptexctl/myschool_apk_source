@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/launch_navy" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="end" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <ImageView android:layout_width="252.0dip" android:layout_height="126.0dip" android:src="@drawable/po_splash_top" android:scaleType="centerInside" android:contentDescription="po-top-logo" app:srcCompat="@drawable/po_splash_top" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/po_title" android:layout_centerHorizontal="true" android:textFontWeight="600" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="28.0dip" android:text="@string/mos_sub_title" android:layout_centerHorizontal="true" android:alpha="0.48" android:textFontWeight="400" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="184.0dip" android:layout_height="252.0dip" android:src="@drawable/po_splash_bottom" android:scaleType="centerInside" android:contentDescription="po-bottom-logo" app:srcCompat="@drawable/po_splash_bottom" />
+    </RelativeLayout>
+</RelativeLayout>

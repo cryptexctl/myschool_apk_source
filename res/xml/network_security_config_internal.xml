@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" />
+            <certificates src="system" />
+        </trust-anchors>
+    </debug-overrides>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">mosreg.ru</domain>
+        <trust-anchors>
+            <certificates src="@raw/gs23" />
+        </trust-anchors>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">tatar.ru</domain>
+        <trust-anchors>
+            <certificates src="@raw/gs23" />
+        </trust-anchors>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">72to.ru</domain>
+        <trust-anchors>
+            <certificates src="@raw/gs23" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

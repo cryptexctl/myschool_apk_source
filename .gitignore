@@ -1,0 +1,12 @@
+# Android specific
+*.apk
+*.apks
+*.dex
+*.jar
+*.class
+/build/
+/out/
+*.iml
+
+# MacOS specific
+.DS_Store
